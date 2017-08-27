@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tasklist</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container">
+      <%= yield %>
+      <footer class="text-center">
+        <hr>
+        Built with <span class="glyphicon glyphicon-heart"></span> by <%= link_to "Maful Prayoga Arnandi", "https://github.com/maful", target: "_blank" %> <br>
+        <%= image_tag("https://vuejs.org/images/logo.png", size: "40", alt: "Vue.js Logo") %>
+        <%= image_tag("http://rubyonrails.org/images/rails-logo.svg", size: "50", alt: "Rails Logo") %>
+      </footer>
+    </div>
+  </body>
+</html>
