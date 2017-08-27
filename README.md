@@ -20,7 +20,7 @@ Simple TaskList built with Rails and Vue.js
 - Enjoy
 
 ### How to use
-1. Start rails with `ralils s`
+1. Start rails with `rails s`
 2. Start webpacker in a separate terminal with `./bin/webpack-dev-server`
 3. Navigate to `http://localhost:3000/`
 4. Enjoy
