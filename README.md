@@ -1,6 +1,9 @@
 ## Simple TaskList
 Simple TaskList built with Rails and Vue.js
 
+### Demo
+![Demo TaskList](https://user-images.githubusercontent.com/6563823/29747472-62c6fbae-8b26-11e7-9c07-6a58c054d3c9.gif)
+
 ### Requirements
 - Ruby 2.2+
 - Rails 5.0+
